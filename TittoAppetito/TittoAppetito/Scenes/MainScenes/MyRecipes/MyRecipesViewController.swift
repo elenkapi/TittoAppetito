@@ -30,7 +30,7 @@ final class MyRecipesViewController: UIViewController {
         return tableView
     }()
     
-    // returns an array of nondeleted notes
+    // returns an array of nondeleted recipes
    private func nonDeletedRecipes() -> [MyRecipe] {
         
         var nonDeletedRecipes = [MyRecipe]()
